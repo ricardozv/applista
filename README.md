@@ -7,9 +7,9 @@ yarn versão 1.22.17
 react-native versão 7.0.3
 
 
-A aplicação foi inicializada com o comando 
+# A aplicação foi inicializada com o comando 
 $ react-native init applista --template react-native-typescript 
 
-No versionamento do código, está sendo usado o git mais o gitflow 
-
+# No versionamento do código, está sendo usado o git + gitflow 
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
