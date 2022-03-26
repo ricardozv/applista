@@ -1,15 +1,13 @@
 import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
-    page:{
-        padding: 10,
-    },
     root: {
         flexDirection: 'row',
-        margin: 10,
+        marginVertical: 10,
         borderWidth: 1,
-        borderColor: '#d1d1d1',
-        borderRadius: 5,
-        backgroundColor: 'white'
+        borderColor: '#f0ffff',
+        borderRadius: 20,
+        backgroundColor: '#fff',
+        height: 170,
 
     },
     image: {
@@ -25,15 +23,22 @@ const styles = StyleSheet.create({
     name: {
         fontWeight:'bold'
 
-    }, 
+    },
+    description: {
+        fontWeight:'bold'
+
+    },  
     quantity: {
 
     }, 
     price: {
-        fontWeight:'bold'
+        fontWeight:'bold',
+        padding:5
+        
 
     }, 
     totalPrice:{
+        padding:5
 
     }
 });
