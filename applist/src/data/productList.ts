@@ -9,15 +9,15 @@ export default [
   },
   {
     id: '2',
-    name: "Maginífica",
+    name: "Skol",
     image: 'https://imagekank.s3.amazonaws.com/magnifica_269ml.png',
     quantity: 1,
-    price: 20.98,
+    price: 6.98,
     totalPrice: 24.06,
   },
   {
     id: '3',
-    name: "Maginífica",
+    name: "Brahma",
     image: 'https://imagekank.s3.amazonaws.com/magnifica_269ml.png',
     quantity: 1,
     price: 20.98,
@@ -25,7 +25,7 @@ export default [
   },
   {
     id: '4',
-    name: "Maginífica",
+    name: "Stella Artoi",
     image: 'https://imagekank.s3.amazonaws.com/magnifica_269ml.png',
     quantity: 1,
     price: 20.98,
@@ -33,7 +33,7 @@ export default [
   },
   {
     id: '5',
-    name: "Maginífica",
+    name: "Caciudes",
     image: 'https://imagekank.s3.amazonaws.com/magnifica_269ml.png',
     quantity: 1,
     price: 20.98,
@@ -41,7 +41,7 @@ export default [
   },
   {
     id: '6',
-    name: "Maginífica",
+    name: "MaginíficaAn",
     image: 'https://imagekank.s3.amazonaws.com/magnifica_269ml.png',
     quantity: 1,
     price: 20.98,
@@ -55,3 +55,4 @@ export default [
     price: 20.98,
     totalPrice: 24.06,
   }
+]

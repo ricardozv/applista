@@ -5,7 +5,7 @@
  - npm versão 8.5.4
  - yarn versão 1.22.17
  - react-native versão 7.0.3
- - Typescript 
+ - Typescript 4.6
 
 
 
@@ -18,3 +18,8 @@ $ react-native init applista --template react-native-typescript
 
 # Adição de uma biblioteca de Icons
  - $ yarn add react-native-vector-icons 
+
+# link do figma com a interface
+https://www.figma.com/file/ce3im0uMSq67G5KsKW3wte/Untitled?node-id=0%3A1
+
+
