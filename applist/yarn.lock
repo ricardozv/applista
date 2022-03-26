@@ -1646,7 +1646,15 @@
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.4.tgz"
   "version" "15.7.4"
 
-"@types/react-native@^0.66.15":
+"@types/react-native-vector-icons@^6.4.10":
+  "integrity" "sha512-z4sexbuZ7nmYsp7Z9YB5fSQoN3KFn6nZA3QsCkQLOYnVmVlxX4U22v/bM9Xx/6dOA1vClxoRZo2CFDX16uryXQ=="
+  "resolved" "https://registry.npmjs.org/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.10.tgz"
+  "version" "6.4.10"
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+
+"@types/react-native@*", "@types/react-native@^0.66.15":
   "integrity" "sha512-Q3S+NhPvA1C35L9oLj8hgJj3QXmEC07Kd54o40ngUNQ2jdtAGc+7AKu2RZ3sPcIHpUBWN+WyHkCuPPQHoiDxQg=="
   "resolved" "https://registry.npmjs.org/@types/react-native/-/react-native-0.66.17.tgz"
   "version" "0.66.17"
