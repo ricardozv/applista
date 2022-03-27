@@ -10,7 +10,6 @@ const ProductList = () => {
             <FlatList
               data={productList}
               renderItem={({item}) => <Products item={item} />}
-              keyExtractor={({ id })=> id }
               showsVerticalScrollIndicator={false}
               />
         </View>

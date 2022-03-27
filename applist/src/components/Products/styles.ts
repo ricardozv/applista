@@ -29,7 +29,8 @@ const styles = StyleSheet.create({
 
     },  
     quantity: {
-
+        fontWeight:'bold'
+        
     }, 
     price: {
         fontWeight:'bold',
