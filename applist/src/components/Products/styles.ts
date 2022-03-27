@@ -4,15 +4,15 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         marginVertical: 10,
         borderWidth: 1,
-        borderColor: '#f0ffff',
-        borderRadius: 20,
-        backgroundColor: '#fff',
-        height: 170,
+        borderColor: '#000',
+        borderRadius: 25,
+        backgroundColor: '#00bfff',
+        height: 145,
 
     },
     image: {
-        width: 130,
-        height: 130,
+        width: 120,
+        height: 120,
 
     },
     rightContainer:{
@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
     price: {
         fontWeight:'bold',
         padding:5
-        
 
     }, 
     totalPrice:{

@@ -10,6 +10,8 @@ const ProductList = () => {
             <FlatList
               data={productList}
               renderItem={({item}) => <Products item={item} />}
+              keyExtractor={({ id })=> id }
+              showsVerticalScrollIndicator={false}
               />
         </View>
     );
@@ -18,7 +20,7 @@ const ProductList = () => {
 const styles = StyleSheet.create({
     page: {
         padding:10,
-        backgroundColor: '#f2f3f4'
+        backgroundColor: '#1C1C1D'
     }
 
 });

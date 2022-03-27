@@ -2,7 +2,7 @@ export default [
   {
     id: '1',
     name: "Maginífica",
-    description: "Cerveja de alta qualidade, feita de mandioca",
+    description: "Cerveja em lata 360ml",
     image: 'https://imagekank.s3.amazonaws.com/magnifica_269ml.png',
     quantity: 1,
     price: 20.98,
@@ -11,7 +11,7 @@ export default [
   {
     id: '2',
     name: "Skol",
-    description: "Cerveja de alta qualidade, feita de mandioca",
+    description: "Cerveja long neck 350ml",
     image: 'https://imagekank.s3.amazonaws.com/skolc.png',
     quantity: 1,
     price: 6.98,
@@ -20,7 +20,7 @@ export default [
   {
     id: '3',
     name: "Brahma",
-    description: "Cerveja de alta qualidade, feita de mandioca",
+    description: "Cerveja long neck 350ml",
     image: 'https://imagekank.s3.amazonaws.com/brahmaC.png',
     quantity: 1,
     price: 20.98,
@@ -29,7 +29,7 @@ export default [
   {
     id: '4',
     name: "Heineken",
-    description: "Cerveja de alta qualidade, feita de mandioca",
+    description: "Cerveja 600ml",
     image: 'https://imagekank.s3.amazonaws.com/haineken.png',
     quantity: 1,
     price: 20.98,
@@ -38,7 +38,7 @@ export default [
   {
     id: '5',
     name: "Cacildes",
-    description: "Cerveja de alta qualidade, feita de mandioca",
+    description: "Cerveja long neck 350ml",
     image: 'https://imagekank.s3.amazonaws.com/cacildes.png',
     quantity: 1,
     price: 20.98,

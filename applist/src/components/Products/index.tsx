@@ -23,12 +23,12 @@ const Products = ({ item }: ProductsProps) => {
                       <Text style={styles.description} numberOfLines = {4}>{item.description}</Text>
                       <Text style={styles.quantity}numberOfLines = {3}>Quantidade: {item.quantity }</Text>
                       <Text style={styles.price}numberOfLines = {3}>Preço R${item.price}
-                      {item.totalPrice && (
-                        
+                      {/*{item.totalPrice && (
                         <Text style={styles.totalPrice}>
                           Preço Total R${item.totalPrice}</Text>
-                      )}
+                      )} */}
                         </Text>
+                        <Text style={styles.totalPrice}></Text>
                        
                     </View>
             </View>
