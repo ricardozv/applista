@@ -6,9 +6,10 @@ const styles = StyleSheet.create({
 
     },
     image: {
+        alignItems:'center',
         width: 120,
         height: 120,
-        alignItems:'center'
+        
 
     },
     description: {
