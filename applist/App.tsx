@@ -14,8 +14,8 @@ const App = () => {
   return (
     <SafeAreaView style={backgroundStyle}> 
       <StatusBar backgroundColor="#1C1C1D"/>
-      {/* <ProductList /> */}
-          <ProductScreen /> 
+      {/*  <ProductList /> */}
+       <ProductScreen /> 
     </SafeAreaView>
   );
 };
