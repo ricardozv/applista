@@ -4,35 +4,41 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         marginVertical: 10,
         borderWidth: 1,
-        borderColor: '#000',
+        borderColor: '#000111',
         borderRadius: 25,
-        backgroundColor: '#00bfff',
+        backgroundColor: '#162129',
         height: 145,
 
     },
     image: {
-        width: 120,
-        height: 120,
+        width: 115,
+        height: 115,
 
     },
     rightContainer:{
-        padding:10,
+        padding:22,
         width:'100%',
         flex:1,
+        color:'#fff'
     },
     name: {
-        fontWeight:'bold'
+        fontWeight:'bold',
+        color:'#fff',
+        fontSize: 17
 
     },
     description: {
-        fontWeight:'bold'
+        fontWeight:'bold',
+        color:'#fff'
 
     },  
     quantity: {
-        fontWeight:'bold'
+        fontWeight:'bold',
+        color:'#fff'
         
     }, 
     price: {
+        color:'#fff',
         fontWeight:'bold',
         padding:5
 

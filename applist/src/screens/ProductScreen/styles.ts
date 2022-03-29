@@ -1,30 +1,49 @@
 import { StyleSheet } from "react-native";
-
 const styles = StyleSheet.create({
+    page: {
+        padding:2,
+        backgroundColor: "#1C1C1D",
+        height:1000, 
+        
+    },
     name: {
-        fontWeight:'bold'
+        fontWeight:'bold',
+        fontSize: 25,
+        textAlign:'center',
+        color:'#fff'
 
     },
     image: {
-        alignItems:'center',
-        width: 120,
-        height: 120,
+        width: 150,
+        height: 260,
+        alignSelf:'center',
+        borderColor: '#000',
+        padding:10
         
-
     },
     description: {
-        fontWeight:'bold'
+        textAlign:'center',
+        height: 90,
+        fontSize: 20,
+        fontWeight:'bold',
+        color:'#fff'
 
     },
     price: {
         fontWeight:'bold',
-        padding:5
+        padding:5,
+        fontSize: 16,
+        color:'#fff'
 
     }, 
     totalPrice:{
-        padding:5 },  
+        padding:5,
+        fontSize: 16,
+        color:'#fff'
+    },  
     quantity: {
-        fontWeight:'bold'
+        fontWeight:'bold',
+        color:'#fff'
         
     },
 

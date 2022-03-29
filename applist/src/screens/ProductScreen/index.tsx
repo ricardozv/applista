@@ -7,10 +7,10 @@ import product from "../../data/product";
 const ProductScreen = () => {
     const [selectQuantiti, setSelectQuantiti ] = useState(product.quantitiSelector[0]);
     return (
-        <View>
-            <Text style={styles.name}>{product.name}</Text>
+        <View style = {styles.page}>
             {/* Name */}
-
+            <Text style={styles.name}>{product.name}</Text>
+            
             {/* Image */}
             <Image style = {styles.image} source = {{ uri: product.image}} />
 
@@ -20,12 +20,10 @@ const ProductScreen = () => {
             {/* price */}
             <Text style={styles.price} numberOfLines = {3}>Preço R${product.price}</Text>
             
-                <Text style={styles.totalPrice}>Preço Total R${product.totalPrice}</Text>
-                    
-
             {/* Quantiti Selector */}
             <Text style={styles.quantity}>{product.quantitiSelector}</Text>
                 <Picker
+                  key={product.id}
                   selectedValue={selectQuantiti}
                   onValueChange={( itemValue ) => 
                   setSelectQuantiti( itemValue )           
@@ -34,7 +32,9 @@ const ProductScreen = () => {
                     <Picker.Item label = {option} value={option} />
                     ))}
                 </Picker>
+
             {/* totalPrice */}
+            <Text style={styles.totalPrice}>Preço Total R${product.totalPrice}</Text>
 
             {/* Buttons */}
 

@@ -1,7 +1,7 @@
 export default [
   {
     id: '1',
-    name: "Maginífica",
+    name: "Magnífica",
     description: "Cerveja em lata 360ml",
     image: 'https://imagekank.s3.amazonaws.com/magnifica_269ml.png',
     quantity: 1,
