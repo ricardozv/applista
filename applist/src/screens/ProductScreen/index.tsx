@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { View, Text, Image } from 'react-native';
-import {Picker} from '@react-native-picker/picker';
+//import {Picker} from '@react-native-picker/picker';
 import styles from "./styles";
 import product from "../../data/product";
+import TotalPrice from "../../components/TotalPrice";
 
 const ProductScreen = () => {
     const [selectQuantiti, setSelectQuantiti ] = useState(product.quantitiSelector[0]);
+    const [quantity, setQuantity] = useState(0);
     return (
         <View style = {styles.page}>
             {/* Name */}
@@ -21,22 +23,20 @@ const ProductScreen = () => {
             <Text style={styles.price} numberOfLines = {3}>Preço R${product.price}</Text>
             
             {/* Quantiti Selector */}
-            <Text style={styles.quantity}>{product.quantitiSelector}</Text>
-                <Picker
-                  key={product.id}
-                  selectedValue={selectQuantiti}
-                  onValueChange={( itemValue ) => 
-                  setSelectQuantiti( itemValue )           
-                }>
-                    { product.quantitiSelector.map(option =>(
-                    <Picker.Item label = {option} value={option} />
-                    ))}
-                </Picker>
+            {/* <Text style={styles.quantity}>{product.quantitiSelector}</Text> */}
+               {/* <Picker
+                        key={product.id}
+                        selectedValue={selectQuantiti}
+                        onValueChange={( itemValue ) => setSelectQuantiti( itemValue )}>
+                        { product.quantitiSelector.map(option =>(
+                        <Picker.Item label = {option} value={option} />
+                        ))}
+                    </Picker> */}
 
             {/* totalPrice */}
-            <Text style={styles.totalPrice}>Preço Total R${product.totalPrice}</Text>
+            <TotalPrice quantity={quantity} setQuantity={setQuantity} />
 
-            {/* Buttons */}
+            {/* Button */}
 
         </View>
     );

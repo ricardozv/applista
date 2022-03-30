@@ -23,27 +23,32 @@ const styles = StyleSheet.create({
     },
     description: {
         textAlign:'center',
-        height: 90,
+        padding:10,
+        height: 60,
         fontSize: 20,
         fontWeight:'bold',
         color:'#fff'
 
     },
     price: {
+        left:25,
+        height: 60,
         fontWeight:'bold',
-        padding:5,
+        padding:2,
         fontSize: 16,
         color:'#fff'
 
     }, 
     totalPrice:{
+        justifyContent: 'center',
         padding:5,
         fontSize: 16,
         color:'#fff'
     },  
     quantity: {
         fontWeight:'bold',
-        color:'#fff'
+        color:'#fff',
+        alignItems:'center'
         
     },
 
