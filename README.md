@@ -7,6 +7,11 @@
  - react-native versão 7.0.3
  - Typescript 4.6
 
+# Back end 
+- Amazon Cloud 
+- GraphQl
+- DynamoDB ou Redis 
+
 # Para testar essa aplicação mobile, faça os seguintes passos.
  - git clone https://github.com/ricardozv/applista.git
  - cd applista
@@ -15,6 +20,7 @@
  - yarn start 
 
 # Essa aplicação foi criada usando o android studio
+- Para iniciar o emulador, digite yarn android dentro da pasta do projeto.
 
 # A aplicação foi inicializada com o comando 
 $ react-native init applista --template react-native-typescript 
@@ -28,5 +34,10 @@ $ react-native init applista --template react-native-typescript
 
 # link do figma com a interface
 https://www.figma.com/file/ce3im0uMSq67G5KsKW3wte/Untitled?node-id=0%3A1
+
+# O desenvolvimento desse projeto tem como base o livro:
+- Full stack Serverless 
+- Modern Application Development with React, AWS, and GraphQl 
+- Autor: Nader Dabit 
 
 

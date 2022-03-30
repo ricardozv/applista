@@ -37,6 +37,7 @@ const ProductScreen = () => {
             <TotalPrice quantity={quantity} setQuantity={setQuantity} />
 
             {/* Button */}
+            <ButtonResults text={'Comprar'} onPress={() => {console.warn('Certo')}} />
 
         </View>
     );
