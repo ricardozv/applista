@@ -7,7 +7,14 @@
  - react-native versão 7.0.3
  - Typescript 4.6
 
+# Para testar essa aplicação mobile, faça os seguintes passos.
+ - git clone https://github.com/ricardozv/applista.git
+ - cd applista
+ - cd applist
+ - yarn install ou npm install 
+ - yarn start 
 
+# Essa aplicação foi criada usando o android studio
 
 # A aplicação foi inicializada com o comando 
 $ npx react-native init applista --template react-native-typescript 
