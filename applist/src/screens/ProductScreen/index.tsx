@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, Button } from 'react-native';
 //import {Picker} from '@react-native-picker/picker';
 import styles from "./styles";
 import product from "../../data/product";
 import TotalPrice from "../../components/TotalPrice";
+import ButtonResults from "../../components/ButtonResults";
+
 
 const ProductScreen = () => {
     const [selectQuantiti, setSelectQuantiti ] = useState(product.quantitiSelector[0]);
@@ -37,7 +39,8 @@ const ProductScreen = () => {
             <TotalPrice quantity={quantity} setQuantity={setQuantity} />
 
             {/* Button */}
-            <ButtonResults text={'Comprar'} onPress={() => {console.warn('Certo')}} />
+            <ButtonResults text={"Comprar"} onPress={() =>{}} />
+            
 
         </View>
     );

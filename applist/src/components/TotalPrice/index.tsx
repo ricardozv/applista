@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
+import styles from "./styles";
 
 const TotalPrice = ({quantity, setQuantity}) => {
     const subtraction = () => {
@@ -25,43 +26,5 @@ const TotalPrice = ({quantity, setQuantity}) => {
     );
 };
 
-const styles = StyleSheet.create({
-    root: {
-        flexDirection:'row',
-        alignItems:'center',
-        borderWidth:1,
-        borderColor: '#000',
-        width:350,
-        backgroundColor:'#162129',
-        fontSize:19, 
-        borderRadius: 20, 
-        height: 70
-
-
-    },
-    button: {
-        width: 60,
-        height:60,
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor:'#162129',
-        fontSize:25,
-        borderRadius: 20
-
-    },
-    buttonText: {
-        color:'#fff',
-        fontSize:25,
-        alignItems: 'center'
-        
-
-    },
-    quantity: {
-        color:'#fff',
-        fontSize:20,
-        alignItems: 'center'
-
-    }
-});
 
 export default TotalPrice;
