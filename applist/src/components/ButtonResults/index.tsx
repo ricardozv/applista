@@ -3,7 +3,7 @@ import { Pressable, StyleSheet, Text } from 'react-native';
 
 interface ButtonProps {
     text: string;
-    onPress: () =>{};
+    onPress: () => void;
 }
 
 function ButtonResults({ text, onPress }: ButtonProps) {
