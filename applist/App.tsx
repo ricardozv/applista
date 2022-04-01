@@ -3,6 +3,7 @@ import { SafeAreaView, StatusBar, useColorScheme } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import ProductList from './src/screens/ProductList';
 import ProductScreen from './src/screens/ProductScreen';
+import Home from './src/screens/Home';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -15,7 +16,8 @@ const App = () => {
     <SafeAreaView style={backgroundStyle}> 
       <StatusBar backgroundColor="#1C1C1D"/>
        {/*  <ProductList /> */}
-      <ProductScreen />
+       <Home />
+      {/*<ProductScreen />*/}
     </SafeAreaView>
   );
 };
