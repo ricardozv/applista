@@ -20,7 +20,7 @@ const ProductScreen = () => {
             <Text style={styles.description}>{product.description}</Text>
 
             {/* Button */}
-            <ButtonResults text={"Comprar"} onPress={() =>{}} />
+            <ButtonResults text={"Navegar"} onPress={() =>{}} />
             
 
         </View>
