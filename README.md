@@ -6,6 +6,7 @@
  - yarn versão 1.22.17
  - react-native versão 7.0.3
  - Typescript 4.6
+ - React Navigation 6.0
 
 # Back end 
 - Amazon Cloud 
