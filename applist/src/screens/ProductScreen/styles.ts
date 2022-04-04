@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     page: {
         padding:2,
-        backgroundColor: "#1C1C1D",
+        backgroundColor: "#fff",
         height:1000, 
         
     },
@@ -14,10 +14,10 @@ const styles = StyleSheet.create({
 
     },
     image: {
-        width: 150,
-        height: 260,
+        width: 120,
+        height: 200,
         alignSelf:'center',
-        borderColor: '#000',
+        borderColor: '#1E90FF',
         padding:10
         
     },
@@ -32,10 +32,10 @@ const styles = StyleSheet.create({
     },
     price: {
         left:25,
-        height: 60,
+        height: 15,
         fontWeight:'bold',
         padding:2,
-        fontSize: 16,
+        fontSize: 13,
         color:'#fff'
 
     }, 

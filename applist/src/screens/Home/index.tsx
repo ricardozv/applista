@@ -10,18 +10,12 @@ const ProductScreen = () => {
     const [quantity, setQuantity] = useState(0);
     return (
         <View style = {styles.page}>
-            {/* Name */}
-            <Text style={styles.name}>{product.name}</Text>
             
             {/* Image */}
-            <Image style = {styles.image} source = {{ uri: product.image}} />
+            <Image style = {styles.image} source = {{ uri:'https://imagekank.s3.amazonaws.com/the-week-rio.jpg'}} />
 
             {/* description */}
-            <Text style={styles.description}>{product.description}</Text>
-
-            {/* Button */}
-            <ButtonResults text={"Navegar"} onPress={() =>{}} />
-            
+            <Text style={styles.description}>{product.descriptionHome}</Text>
 
         </View>
     );

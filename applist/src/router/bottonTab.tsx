@@ -5,19 +5,49 @@ import ProductList from '../screens/ProductList';
 import Home from '../screens/Home';
 import ProductScreen from '../screens/ProductScreen';
 import Profile from '../screens/Profile';
+import AntDesign from 'react-native-vector-icons/AntDesign';
+import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
+import HomeStack from './homeStack';
 
 const Tab = createBottomTabNavigator();
 
 const BottomTab = () => {
     return (
-          <Tab.Navigator>
-              <Tab.Screen component={Home} name="Home" />
-              <Tab.Screen component={Profile} name="Perfil" />
-              <Tab.Screen component={ProductList} name="Lista de Produtos" />
-              <Tab.Screen component={ProductScreen} name="Produto" />
+          <Tab.Navigator
+          screenOptions = {{
+            activeTintColor: '#1E90FF'
+            }}>
+              <Tab.Screen 
+              component={Home} 
+              name="Home"
+              options={{
+              tabBarIcon:({color}) => (
+                <SimpleLineIcons name="home" size={26} color={color}/>)}}/>
+
+              <Tab.Screen 
+              component={HomeStack} 
+              name="Lista de Produtos"
+              options={{
+              tabBarIcon:({color}) => (
+                <SimpleLineIcons name="list" size={26} color={color}/>)}} />
+
+              <Tab.Screen 
+              component={ProductScreen} 
+              name="Produto"
+              options={{
+              tabBarIcon:({color}) => (
+                <AntDesign name="shoppingcart" size={26} color={color} />)}} />
+              <Tab.Screen 
+              component={Profile} 
+              name="Perfil"
+              options={{
+              tabBarIcon:({color}) => (
+                <AntDesign name="user" size={26} color={color} />)}} />
           </Tab.Navigator>
     );
 };
+
+
 
 export default BottomTab;
 

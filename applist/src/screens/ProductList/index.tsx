@@ -19,7 +19,7 @@ const ProductList = () => {
 const styles = StyleSheet.create({
     page: {
         padding:10,
-        backgroundColor: '#1C1C1D'
+        backgroundColor: '#fff'
     }
 
 });

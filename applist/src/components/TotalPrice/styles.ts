@@ -5,34 +5,34 @@ const styles = StyleSheet.create({
         justifyContent:'space-between',
         alignItems:'center',
         borderWidth:1,
-        borderColor: '#000',
-        width:350,
-        backgroundColor:'#162129',
-        fontSize:19, 
+        borderColor: '#1E90FF',
+        width:240,
+        backgroundColor:'#1E90FF',
+        fontSize:13, 
         borderRadius: 15,
-        left:19, 
+        left:60, 
         height: 70
 
     },
     button: {
-        width: 60,
-        height:60,
+        width: 50,
+        height:50,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor:'#162129',
-        fontSize:28,
+        backgroundColor:'#1E90FF',
+        fontSize:18,
         borderRadius: 20
 
     },
     buttonText: {
         color:'#fff',
-        fontSize:28,
+        fontSize:18,
         alignItems: 'center'
         
     },
     quantity: {
         color:'#fff',
-        fontSize:28,
+        fontSize:15,
         alignItems: 'center'
 
     }

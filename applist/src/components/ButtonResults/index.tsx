@@ -16,20 +16,20 @@ function ButtonResults({ text, onPress }: ButtonProps) {
 
 const styles = StyleSheet.create({
     root: {
-        backgroundColor:'#162129',
+        backgroundColor:'#1E90FF',
         borderWidth:1,
-        height:55,
-        width: 260,
-        padding:10,
+        height:50,
+        width: 200,
+        padding:3,
         borderRadius: 15,
-        borderColor: '#000',
+        borderColor: '#1E90FF',
         alignSelf:'center',
-        marginVertical: 70,
+        marginVertical: 40,
 
     },
     text:{
        color:'#fff',
-       fontSize:20,
+       fontSize:15,
        textAlign:'center',
        padding:5,
     }

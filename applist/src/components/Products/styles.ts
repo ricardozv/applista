@@ -4,9 +4,9 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         marginVertical: 10,
         borderWidth: 1,
-        borderColor: '#000111',
+        borderColor: '#f1f1f1',
         borderRadius: 20,
-        backgroundColor: '#162129',
+        backgroundColor: '#1E90FF',
         height: 145,
 
     },
@@ -28,19 +28,18 @@ const styles = StyleSheet.create({
 
     },
     description: {
-        fontWeight:'bold',
         color:'#fff'
 
     },  
     quantity: {
-        fontWeight:'bold',
         color:'#fff'
         
     }, 
     price: {
         color:'#fff',
         fontWeight:'bold',
-        padding:5
+        padding:3,
+        fontSize: 17
 
     }, 
     totalPrice:{
