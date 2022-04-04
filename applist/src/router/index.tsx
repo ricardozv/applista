@@ -7,9 +7,9 @@ const Root = createStackNavigator();
 
 const Router = () => {
     return (
-        <NavigationContainer>
-          <Root.Navigator>
-              <Root.Screen component={BottomTab} name="HomeTab" />
+        <NavigationContainer >
+          <Root.Navigator screenOptions={{headerShown:false}}>
+              <Root.Screen component={BottomTab} name="Bem vindo ao Drexy" />
           </Root.Navigator>
         </NavigationContainer>
     );

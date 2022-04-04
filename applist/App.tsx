@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <View style={backgroundStyle}> 
-      <StatusBar backgroundColor="#1C1C1D"/>
+      <StatusBar  hidden={false} backgroundColor="#fff" translucent = {true}/>
        < Router />
     </View>
   );

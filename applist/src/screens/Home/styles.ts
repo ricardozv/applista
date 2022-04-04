@@ -1,33 +1,24 @@
 import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     page: {
-        padding:2,
-        backgroundColor: "#1C1C1D",
+        padding:1,
+        backgroundColor: "#fff",
         height:1000, 
         
     },
-    name: {
-        fontWeight:'bold',
-        fontSize: 25,
-        textAlign:'center',
-        color:'#fff'
-
-    },
     image: {
-        width: 150,
-        height: 260,
+        width: 360,
+        height: 390,
         alignSelf:'center',
-        borderColor: '#000',
-        padding:10
+        borderColor: '#000'
         
     },
     description: {
-        textAlign:'center',
+        textAlign:'left',
         padding:10,
         height: 60,
-        fontSize: 20,
-        fontWeight:'bold',
-        color:'#fff'
+        fontSize: 16,
+        color:'#000'
 
     }
 

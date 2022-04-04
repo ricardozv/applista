@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, Pressable } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import styles from './styles';
 
 interface ProductsProps {
@@ -15,8 +16,12 @@ interface ProductsProps {
 }
 
 const Products = ({ item }: ProductsProps) => {
+  const navigation = useNavigation();
+  const onPress = () =>{
+    navigation.navigate("ProductScreen", {id: item.id });
+  }
     return (
-        <View style = {styles.root}>
+        <Pressable onPress={onPress} style = {styles.root}>
                 <Image style = {styles.image} source = {{ uri: item.image}} />
                     <View style = {styles.rightContainer}>
                       <Text style={styles.name} numberOfLines = {1}>{item.name}</Text>
@@ -31,7 +36,7 @@ const Products = ({ item }: ProductsProps) => {
                         <Text style={styles.totalPrice}></Text>
                        
                     </View>
-            </View>
+            </Pressable>
         
     );
 }
