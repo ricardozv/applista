@@ -1,11 +1,13 @@
 import React from "react";
 import { View, Pressable, Text } from "react-native";
+import { Auth } from "aws-amplify";
+
 
 const Profile = () => {
 
- {/* const logout = () => {
+  const logout = () => {
     Auth.signOut();
-  } */}
+  } 
 
   return (
     <View style={{
@@ -16,7 +18,7 @@ const Profile = () => {
     backgroundColor: '#fff'
     }}>
       <Pressable
-        //onPress={logout}
+        onPress={logout}
         style={{
         width: '100%',
         height: 40,

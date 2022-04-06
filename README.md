@@ -9,9 +9,10 @@
  - React Navigation 6.0
 
 # Back end 
-- Amazon Cloud 
+- Amazon Cloud / aws amplify
+- amazoncognito-identity-js
 - GraphQl
-- DynamoDB ou Redis 
+- DynamoDB 
 
 # Para testar essa aplicação mobile, faça os seguintes passos.
  - git clone https://github.com/ricardozv/applista.git
@@ -21,7 +22,7 @@
  - yarn start 
 
 # Essa aplicação foi criada usando o android studio
-- Para iniciar o emulador, digite yarn android dentro da pasta do projeto.
+- Para iniciar o emulador, digite yarn start dentro da pasta do projeto e logo após o build yarn android no terminal terminal.
 
 # A aplicação foi inicializada com o comando 
 $ react-native init applista --template react-native-typescript 

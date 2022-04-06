@@ -12,6 +12,8 @@ target 'applist' do
     :hermes_enabled => false
   )
 
+  pod 'RNAWSCognito', :path => '../node_modules/amazon-cognito-identity-js'
+
   target 'applistTests' do
     inherit! :complete
     # Pods for testing
