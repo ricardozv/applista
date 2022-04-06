@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import ProductList from '../screens/ProductList';
+import ProductList from '../screens/ProductListX';
 import Home from '../screens/Home';
 import ProductScreen from '../screens/ProductScreen';
 import Profile from '../screens/Profile';
@@ -15,7 +15,7 @@ const BottomTab = () => {
     return (
           <Tab.Navigator
           screenOptions = {{
-            activeTintColor: '#1E90FF'
+            activeTintColor:'#1E90FF'
             }}>
               <Tab.Screen 
               component={Home} 

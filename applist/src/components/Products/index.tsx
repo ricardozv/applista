@@ -18,16 +18,16 @@ interface ProductsProps {
 const Products = ({ item }: ProductsProps) => {
   const navigation = useNavigation();
   const onPress = () =>{
-    navigation.navigate("ProductScreen", {id: item.id });
+    navigation.navigate("ProductScreen");
   }
     return (
         <Pressable onPress={onPress} style = {styles.root}>
-                <Image style = {styles.image} source = {{ uri: item.image}} />
+                <Image style = {styles.image} />
                     <View style = {styles.rightContainer}>
-                      <Text style={styles.name} numberOfLines = {1}>{item.name}</Text>
-                      <Text style={styles.description} numberOfLines = {4}>{item.description}</Text>
-                      <Text style={styles.quantity}numberOfLines = {3}>Quantidade: {item.quantity }</Text>
-                      <Text style={styles.price}numberOfLines = {3}>Preço R${item.price}
+                      <Text style={styles.name} numberOfLines = {1}></Text>
+                      <Text style={styles.description} numberOfLines = {4}></Text>
+                      <Text style={styles.quantity}numberOfLines = {3}></Text>
+                      <Text style={styles.price}numberOfLines = {3}>
                       {/*{item.totalPrice && (
                         <Text style={styles.totalPrice}>
                           Preço Total R${item.totalPrice}</Text>

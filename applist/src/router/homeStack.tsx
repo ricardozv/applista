@@ -1,6 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import ProductList from "../screens/ProductList";
+import ProductList from "../screens/ProductListX";
 import ProductScreen from "../screens/ProductScreen";
 import { StackActions } from "@react-navigation/native";
 import { Text, View } from "react-native";
