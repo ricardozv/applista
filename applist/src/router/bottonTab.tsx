@@ -26,14 +26,21 @@ const BottomTab = () => {
 
               <Tab.Screen 
               component={HomeStack} 
-              name="Lista de Produtos"
+              name="Produtos"
               options={{
               tabBarIcon:({color}) => (
                 <SimpleLineIcons name="list" size={26} color={color}/>)}} />
 
               <Tab.Screen 
+              component={HomeStack} 
+              name="Retirar"
+              options={{
+              tabBarIcon:({color}) => (
+                <SimpleLineIcons name="heart" size={26} color={color}/>)}} />
+
+              <Tab.Screen 
               component={ProductScreen} 
-              name="Produto"
+              name="Compras"
               options={{
               tabBarIcon:({color}) => (
                 <AntDesign name="shoppingcart" size={26} color={color} />)}} />

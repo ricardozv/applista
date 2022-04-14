@@ -2,48 +2,36 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     root: {
         flexDirection: 'row',
-        marginVertical: 10,
+        margin: 10,
         borderWidth: 1,
-        borderColor: '#f1f1f1',
+        borderColor: '#535353',
         borderRadius: 20,
-        backgroundColor: '#1E90FF',
-        height: 145,
+        backgroundColor: '#535353',
+        height: 170
 
     },
     image: {
-        width: 115,
-        height: 115,
+        width: 130,
+        height: 130,
 
     },
     rightContainer:{
-        padding:22,
+        padding:10,
         width:'100%',
         flex:1,
-        color:'#fff'
     },
     name: {
-        fontWeight:'bold',
-        color:'#fff',
-        fontSize: 17
+        fontWeight:'bold'
 
-    },
-    description: {
-        color:'#fff'
-
-    },  
+    }, 
     quantity: {
-        color:'#fff'
-        
+
     }, 
     price: {
-        color:'#fff',
-        fontWeight:'bold',
-        padding:3,
-        fontSize: 17
+        fontWeight:'bold'
 
     }, 
     totalPrice:{
-        padding:5
 
     }
 });

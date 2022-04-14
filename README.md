@@ -1,6 +1,6 @@
 # applista
- - Está aplicação está sendo construída construida no seguinte ambiente:
- - Debian linux
+ - Está aplicação está sendo construída no seguinte ambiente:
+ - Debian linux 11
  - Nodejs versão 12.22.9
  - npm versão 8.5.4
  - yarn versão 1.22.17
@@ -8,7 +8,11 @@
  - Typescript 4.6
  - React Navigation 6.0
 
-# Back end 
+# FrontEnd
+ - Foi construido com react native 
+ - 
+
+# Backend 
 - Amazon Cloud / aws amplify
 - amazoncognito-identity-js
 - GraphQl
