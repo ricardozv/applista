@@ -2,8 +2,6 @@ import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import ProductList from "../screens/ProductListX";
 import ProductScreen from "../screens/ProductScreen";
-import { StackActions } from "@react-navigation/native";
-import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { TextInput } from "react-native-gesture-handler";
 
@@ -28,6 +26,11 @@ const HomeStack = () => {
             name="ProductList"
             options={{title: 'Home'}} />
 
+          {/*  <Stack.Screen
+            component={ProductList}
+            name="ProductList"
+            options={{title: 'Home'}} />
+    */}
             <Stack.Screen
             component={ProductScreen}
             name="ProductScreen" />

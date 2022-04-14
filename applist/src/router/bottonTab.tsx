@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import ProductList from '../screens/ProductListX';
 import Home from '../screens/Home';
+import Map from '../screens/Map';
 import ProductScreen from '../screens/ProductScreen';
 import Profile from '../screens/Profile';
 import AntDesign from 'react-native-vector-icons/AntDesign';
@@ -26,14 +27,21 @@ const BottomTab = () => {
 
               <Tab.Screen 
               component={HomeStack} 
-              name="Lista de Produtos"
+              name="Produtos"
               options={{
               tabBarIcon:({color}) => (
                 <SimpleLineIcons name="list" size={26} color={color}/>)}} />
 
               <Tab.Screen 
+              component={Map} 
+              name="Localizar"
+              options={{
+              tabBarIcon:({color}) => (
+                <SimpleLineIcons name="map" size={26} color={color}/>)}} />
+
+              <Tab.Screen 
               component={ProductScreen} 
-              name="Produto"
+              name="Compras"
               options={{
               tabBarIcon:({color}) => (
                 <AntDesign name="shoppingcart" size={26} color={color} />)}} />
