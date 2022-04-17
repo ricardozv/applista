@@ -1,12 +1,14 @@
 import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     page: {
+        display: 'flex', 
         padding:2,
         backgroundColor: "#fff",
         height:1000, 
         
     },
     name: {
+        display: 'flex', 
         fontWeight:'bold',
         fontSize: 25,
         textAlign:'center',
@@ -14,6 +16,7 @@ const styles = StyleSheet.create({
 
     },
     image: {
+        display: 'flex', 
         width: 120,
         height: 200,
         alignSelf:'center',
