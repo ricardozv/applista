@@ -10,7 +10,8 @@
 
 # FrontEnd
  - Foi construido com react native 
- - 
+ - Refatoração do frontend para adição do atomic design
+ - https://bradfrost.com/blog/post/atomic-web-design/ 
 
 # Backend 
 - Amazon Cloud / aws amplify

@@ -11,8 +11,8 @@ const Profile = () => {
 
   return (
     <View style={{
-    height: '100%', 
     display: 'flex', 
+    height: '100%',
     justifyContent: 'center', 
     alignItems: 'center', 
     backgroundColor: '#fff'
@@ -20,10 +20,12 @@ const Profile = () => {
       <Pressable
         onPress={logout}
         style={{
+        display: 'flex', 
         width: '100%',
-        height: 40,
+        height: 60,
         backgroundColor: '#1E90FF',
-        justifyContent: 'center', alignItems: 'center'
+        justifyContent: 'center', 
+        alignItems: 'center'
       }}>
         <Text>Log out</Text>
       </Pressable>

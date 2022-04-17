@@ -15,42 +15,59 @@ const Tab = createBottomTabNavigator();
 const BottomTab = () => {
     return (
           <Tab.Navigator
-          screenOptions = {{
-            activeTintColor:'#1E90FF'
-            }}>
+          screenOptions= {{
+            activeTintColor:'#1E90FF',
+          }}>
               <Tab.Screen 
               component={Home} 
               name="Home"
               options={{
               tabBarIcon:({color}) => (
-                <SimpleLineIcons name="home" size={26} color={color}/>)}}/>
+                <SimpleLineIcons 
+                name="home" 
+                size={26} 
+                color={color}/>)}}/>
 
               <Tab.Screen 
               component={HomeStack} 
               name="Produtos"
               options={{
               tabBarIcon:({color}) => (
-                <SimpleLineIcons name="list" size={26} color={color}/>)}} />
+                <SimpleLineIcons 
+                name="list" 
+                size={26} 
+                color={color}/>)}} />
 
               <Tab.Screen 
               component={Map} 
               name="Localizar"
               options={{
               tabBarIcon:({color}) => (
-                <SimpleLineIcons name="map" size={26} color={color}/>)}} />
+                <SimpleLineIcons 
+                name="map" 
+                size={26} 
+                color={color}/>)}} />
 
               <Tab.Screen 
               component={ProductScreen} 
               name="Compras"
               options={{
               tabBarIcon:({color}) => (
-                <AntDesign name="shoppingcart" size={26} color={color} />)}} />
+                <AntDesign 
+                name="shoppingcart" 
+                size={26} 
+                color={color} />)}} />
+              
               <Tab.Screen 
               component={Profile} 
               name="Perfil"
               options={{
               tabBarIcon:({color}) => (
-                <AntDesign name="user" size={26} color={color} />)}} />
+                <AntDesign 
+                name="user" 
+                size={26} 
+                color={color} />)}} />
+                
           </Tab.Navigator>
     );
 };
