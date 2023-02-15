@@ -30,7 +30,7 @@
 - Para iniciar o emulador, digite yarn start dentro da pasta do projeto e logo após o build yarn android no terminal terminal.
 
 # A aplicação foi inicializada com o comando 
-$ react-native init applista --template react-native-typescript 
+$ npx react-native init applista --template react-native-typescript 
 - https://github.com/react-native-community/react-native-template-typescript
 
 # No versionamento do código, está sendo usado o git + gitflow, link abaixo.
